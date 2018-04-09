@@ -1,0 +1,14 @@
+body{
+	background-image: url('../../public/img/fondo.jpg');
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.8)
+}
+
+.fondo-negro{
+	background-color: rgba(0, 0, 0, 0.8);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
