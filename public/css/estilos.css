@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+*{
+	font-family: 'Dosis';
+}
+
+body,html{
+	height: 100%;
+	width: 100%;
+
+}
+
 body{
 	background-image: url('../../public/img/fondo.jpg');
 	background-size: cover;
-	height: 100%;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.8)
+	background-repeat: no-repeat;
 }
 
 .fondo-negro{
@@ -11,4 +21,26 @@ body{
 	height: 100%;
 	width: 100%;
 	position: absolute;
+}
+
+.flex-center{
+	display: flex;
+  	justify-content: center;
+  	margin: auto;
+}
+
+/* ----- Estilos ----- */
+
+.principal-text{
+	margin-top: 0.8rem;
+	margin-bottom: 2rem;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+.btn-principal-page{
+	letter-spacing: 0.15rem;
 }
