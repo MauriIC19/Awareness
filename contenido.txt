@@ -1,0 +1,90 @@
+--Pantalla de bienvenida (aquí explicamos que es y qué hace el sistema)
+
+    ¡Bienvenido!
+
+    Awareness es una plataforma web de autoconocimiento que através de actividades
+    y herramientas te permitirá conocerte mejor a ti mismo. 
+
+    De la misma manera, encontrarás una herramienta que te permitirá reducir el estrés
+    del trabajo continuo. 
+
+    Esperemos que esta plataforma te sea de ayuda.
+
+--Pantalla de Autoconocimiento (el juego de ahorcado)
+
+    --Teoría
+    El autoconocimiento consiste básicamente en la reflexión, en conectarte con tu yo y empezar a invertir tu tiempo en conocerte. 
+    Empieza cuando te preguntas ¿Quién soy?, te ayudara no solo a tener mayor conciencia sobre ti, sino a estar seguro de quien eres.
+
+    La clave está en saber que preguntas hacerte, recuerda que una buena pregunta trae como consecuencia una buena respuesta, 
+    y si por el contrario te enfocas en hacer preguntas incorrectas -por lo general enjuiciadoras-, 
+    te aseguro que la respuesta será igual de improductiva.
+
+    --Reflexión
+    "Aprendió tanto de sus errores que cuando tropezaba, en vez de caer, volaba"
+
+--Pantalla de Estrés (reproductor de música)
+
+    --Teoría
+    El estrés es una sensación que creamos al reaccionar a ciertos eventos. Es la manera en la que el cuerpo se enfrenta a un reto y 
+    se prepara para actuar ante una situación difícil con enfoque, fortaleza, vigor y agudeza mental.
+
+    Los eventos que provocan el estrés cubren una variedad de situaciones 
+    - desde verse en peligro físico hasta hacer una presentación en clase o tomar un semestre con la asignatura más difícil.
+
+    --Reflexión
+    "En la vida siempre habrá estrés, se trata entonces de controlarlo y ser concientes de que está
+    habrá cosas que por más que queramos, no estarán bajo control y por las cuales no vale la pena 
+    preocuparnos"
+
+--Pantalla de Creatividad (cuestionario)
+
+    --Teoría
+    La creativiad es una capacidad existente en todos los seres humanos, utilizada para la solución de problemas y que precisa de realidades 
+    ya existentes. Con base en algunas investigaciones podría definirse la creatividad como “el conjunto de aptitudes vinculadas a la 
+    personalidad del ser humano que le permiten, a partir de una información previa, y mediante una serie de procesos internos (cognitivos), 
+    en los cuales se transforma dicha información, la solución de problemas con originalidad y eficacia”
+
+    --Reflexión
+    "Para ejecutar una idea puedes estar despierto toda la noche
+    para ser creativo tienes que estar despierto toda la vida"
+
+    --Cuestionario
+    LEE ESTO LOZANO:
+    El cuestionario consta de 12 preguntas de verdadero o falso
+    Si el usuario contesta verdadero suma puntos, si contesta falso no.
+    Al final viene la ponderación.
+
+    1. Me gustaría que me hipnotizaran.
+
+    2. A menudo tengo pensamientos interesantes cuando estoy medio dormido o medio despierto.
+
+    3. Me interesan muchas cosas muy diversas y variadas, pertenecientes a campos diferentes, como el deporte, la lectura, el arte, etc.
+
+    4. Me gusta ver formas en las nubes.
+
+    5. Me gusta llevar a cabo varios proyectos a la vez.
+
+    6. Tengo recursos cuando me encuentro con circunstancias impredecibles, como la llegada repentina de huéspedes, 
+    un cambio en los planes de un viaje, o un picnic espontáneo.
+
+    7. En ocasiones experimento un deja vu.
+    
+    8. A veces, mientras estoy durmiendo, mantengo conversaciones con alguien que entra en mi habitación.
+
+    9. Hago bromas, me río mucho y se me conoce como una persona con sentido del humor.
+
+    10. He tenido la sensación de estar como hipnotizado mientras conducía un coche.
+
+    11. A veces estoy tan concentrado que no escucho a los demás llamarme.
+
+    12. He tenido la experiencia de de mirar intensamente algo hasta que lentamente o de repente se vuelve muy extraño ante mis ojos.
+
+    --Puntuación del test de creatividad:
+
+    0-4: No eres una persona muy creativa. Prefieres la disciplina, tener todo calculado y en su sitio y no dejar nada a la imaginación. Sin embargo eres más serio y eficiente muchas veces.
+
+    4-8: Tienes puntos de creatividad esporádicamente y tu mente es una mezcla entre el pensamiento rígido y el pensamiento creativo. Puedes hacer tareas racionales o creativas por igual.
+
+    8-12: Eres una persona muy creativa. Seguramente te sientes feliz realizando tareas o trabajos que requieran el uso de la imaginación y el pensamiento creativo.
+
