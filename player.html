@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Reproductor</title>
+  <meta name="viewport" content="width=device-width">
+    <script defer src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script defer src="./public/js/player.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./public/css/playerStyle.css">
+</head>
+
+<body>
+  <div id="wrap">
+
+    <!--Aquí va la animación, Lozano-->
+    <div id="viz"></div>
+
+    <input id="input-src" type="file">
+    <select name="" id="input-list">
+      <option value="none" disabled selected hidden>Selecciona...</option>
+    </select>
+
+    <div id="source">
+      <audio id="src-audio" crossorigin="anonymous"/>
+    </div>
+  </div>
+</body>
+</html>
