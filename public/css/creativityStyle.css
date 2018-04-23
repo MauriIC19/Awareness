@@ -1,0 +1,27 @@
+.contenido
+{
+    margin: 0 !important;
+    padding: 2rem;
+}
+
+.pregunta
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#container-questions > :last-child
+{
+    display: block;
+
+    margin: auto;
+    margin-top: 1rem;
+
+    justify-content: center;
+    align-content: center;
+}
+
+#resultado
+{
+    margin-top: 1rem;
+}

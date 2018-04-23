@@ -1,46 +1,111 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis');
 
-*{
-	font-family: 'Dosis';
+*
+{
+    font-family: 'Dosis';
 }
 
-body,html{
-	height: 100%;
-	width: 100%;
-
+body,
+html
+{
+    width: 100%;
+    height: 100%;
 }
 
-body{
-	background-image: url('../../public/img/fondo.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
+body
+{
+    background-image: url('../../public/img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.fondo-negro{
-	background-color: rgba(0, 0, 0, 0.8);
-	height: 100%;
-	width: 100%;
-	position: absolute;
+.fondo-negro
+{
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, .8);
 }
 
-.flex-center{
-	display: flex;
-  	justify-content: center;
-  	margin: auto;
+.flex-center
+{
+    display: flex;
+
+    margin: auto;
+
+    justify-content: center;
+}
+
+.h-95
+{
+    height: 95% !important;
+}
+
+.h-5
+{
+    height: 5% !important;
 }
 
 /* ----- Estilos ----- */
 
-.principal-text{
-	margin-top: 0.8rem;
-	margin-bottom: 2rem;
-	color: white;
-	text-transform: uppercase;
-	letter-spacing: 0.2rem;
-	font-size: 1.2rem;
-	font-weight: 300;
+.principal-text
+{
+    font-size: 1.2rem;
+    font-weight: 300;
+
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+
+    letter-spacing: .2rem;
+
+    color: white;
 }
 
-.btn-principal-page{
-	letter-spacing: 0.15rem;
+.secondary-text
+{
+    font-size: 1rem;
+    font-weight: 300;
+
+    width: 60%;
+    margin: auto;
+    margin-top: .8rem;
+    margin-bottom: 2rem;
+    margin-bottom: 20px;
+
+    letter-spacing: .2rem;
+
+    color: white;
+}
+
+.btn-principal-page
+{
+    margin-top: 4rem;
+
+    letter-spacing: .15rem;
+}
+
+.margin-credits
+{
+    margin-top: 0;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+
+.creditosTxt
+{
+    cursor: pointer;
+
+    color: white !important;
+}
+
+.menu-option
+{
+    max-width: calc(33.333333% - 30px) !important;
+    margin-right: 15px !important;
+    margin-left: 15px !important;
+    padding: 0 !important;
+
+    cursor: pointer;
 }

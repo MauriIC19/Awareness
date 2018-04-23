@@ -1,29 +1,99 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Reproductor</title>
-  <meta name="viewport" content="width=device-width">
-    <script defer src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <meta charset="UTF-8">
+    <title>Reproductor</title>
+    <meta name="viewport" content="width=device-width">
     <script defer src="./public/js/player.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="./public/css/playerStyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div id="wrap">
-
-    <!--Aquí va la animación, Lozano-->
-    <div id="viz"></div>
-
-    <input id="input-src" type="file">
-    <select name="" id="input-list">
-      <option value="none" disabled selected hidden>Selecciona...</option>
-    </select>
-
-    <div id="source">
-      <audio id="src-audio" crossorigin="anonymous"/>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">
+        Awareness
+    </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="autoconocimiento.html">El Autoconocimiento</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Sin Estrés<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="creatividad.html">La Creatividad</a>
+                </li>
+        </div>
+    </nav>
+    <div class="row contenido">
+        <div class="row">
+            <div class="col-12">
+                <h2>¿Qué es el estrés?</h2>
+            </div>
+            <div class="col-12 ">
+                <p>El estrés es una sensación que creamos al reaccionar a ciertos eventos. Es la manera en la que el cuerpo se enfrenta a un reto y se prepara para actuar ante una situación difícil con enfoque, fortaleza, vigor y agudeza mental.</p>
+            </div>
+            <div class="col-12 ">
+                <p>Los eventos que provocan el estrés cubren una variedad de situaciones desde verse en peligro físico hasta hacer una presentación en clase o tomar un semestre con la asignatura más difícil.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h2>Una Reflexión</h2>
+            </div>
+            <div class="col-12 ">
+                <p>"En la vida siempre habrá estrés, se trata entonces de controlarlo y ser concientes de que está habrá cosas que por más que queramos, no estarán bajo control y por las cuales no vale la pena preocuparnos"
+                </p>
+            </div>
+        </div>
+        <div class="row w-100">
+            <div class="col-12 title-player">
+                <h2>Reproductor Antiestrés</h2>
+            </div>
+            <div class="col-12">
+                <div id="viz"></div>
+            </div>
+        </div>
+        <div class="row w-100 control-player">
+            <div class="col-5">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Mis Canciones</span>
+                    </div>
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="input-src">
+                        <label class="custom-file-label" for="inputGroupFile01">Escoge una canción</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect01">Nuestras Canciones</label>
+                    </div>
+                    <select class="custom-select" id="input-list">
+                        <option value="none" disabled selected hidden>Selecciona...</option>
+                    </select>
+                </div>
+                <div id="source">
+                    <audio id="src-audio" crossorigin="anonymous" />
+                </div>
+            </div>
+            <div class="col-2">
+                <button id="play-safari" type="button" class="btn btn-outline-dark btn-block">Reproducir</button>
+            </div>
+        </div>
     </div>
-  </div>
+    </div>
 </body>
+
 </html>
